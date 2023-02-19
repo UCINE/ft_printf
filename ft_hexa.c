@@ -23,7 +23,7 @@ static void	ft_puthex(unsigned int nb, const char c)
 	{
 		if (nb <= 9)
 			ft_putchar(nb + '0');
-		else if (nb >= 10 && nb <= 15)
+		else if (nb >= 10 && nb <=  15)
 		{
 			if (c == 'x')
 				ft_putchar(nb - 10 + 'a');
